@@ -1,35 +1,42 @@
 import React from 'react';
-// Import the BrowserRouter, Route and Link components
-import { BrowserRouter, Route, Link } from 'react-router-dom'; 
-import Projects from './Projects.js'; 
-import About from './About.js'; 
-import Contact from './Contact.js'; 
 import './App.css';
- 
+import {
+  BrowserRouter as Router,
+  Route,
+} from "react-router-dom";
+import Navbar from './components/Navbar';
+import Home from './contents/Home';
+import About from './contents/About';
+import Projects from './contents/Projects';
+import Resume from './contents/Resume';
+import Contact from './contents/Contact';
+
+
+
 function App() {
   return (
-    <BrowserRouter>
-      <div className="App">
+    <Router>
+    <div className="App">
+    <Navbar />
+    <Route exact path="/">
+    <Home />
+    </Route>
+    <Route path="/about">
+    <About />
+    </Route>
+    <Route path="/projects">
+    <Projects />
+    </Route>
+    <Route path="/resume">
+    <Resume />
+    </Route>
+    <Route path="/contact">
+    <Contact />
+    </Route>
+    </div>
+    </Router>
+    );
+  }
   
-        // Set up the Router
-        <Route exact path="/" component={Projects} />
-        <Route path="/Contact" component={Contact} />
-        <Route path="/About" component={About} />
+  export default App;
   
-        <div className="navigation">
-          <img src={logo} className="logo-image" alt="Logo Image" />
-          <div className="navigation-sub">
-                                          
-            // Set up the Links
-            <Link to="/About" className="item">About</Link>
-            <Link to="/Project" className="item">Projects</Link>
-            <Link to="/Contact" className="item">Contact</Link>
-  
-          </div>
-        </div>
-      </div>
-    </BrowserRouter>
-  );
-}
- 
-export default App;

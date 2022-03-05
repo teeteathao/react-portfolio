@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.686496b1.css",
+    "main.js": "/react-portfolio/static/js/main.9fbe17d1.js",
+    "static/media/Photo-T.png": "/react-portfolio/static/media/Photo-T.c58885fd608c3116998b.png",
+    "static/media/GeekSeekProj.png": "/react-portfolio/static/media/GeekSeekProj.b7ab1d66d4ee3923e30f.png",
+    "static/media/TripPlannerProj.png": "/react-portfolio/static/media/TripPlannerProj.1a6eaa22a42bc22f4343.png",
+    "static/media/PasswordGenProj.png": "/react-portfolio/static/media/PasswordGenProj.e5f6049de49a320b12fd.png",
+    "static/media/TextEditor.png": "/react-portfolio/static/media/TextEditor.264122564bda2bfad8b5.png",
+    "static/media/Resume.PNG": "/react-portfolio/static/media/Resume.3ac443536b6469fe1959.PNG",
+    "static/media/CalendarProj.png": "/react-portfolio/static/media/CalendarProj.f73f0985b5317723448d.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.686496b1.css.map": "/react-portfolio/static/css/main.686496b1.css.map",
+    "main.9fbe17d1.js.map": "/react-portfolio/static/js/main.9fbe17d1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.686496b1.css",
+    "static/js/main.9fbe17d1.js"
+  ]
+}
